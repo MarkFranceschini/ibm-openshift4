@@ -1,3 +1,3 @@
-FROM registry.ng.bluemix.net/armada/openshift4-gate:master
+FROM registry.svc.ci.openshift.org/ibm-gate-secrets/base:master
 ENV mark="mark"
 
