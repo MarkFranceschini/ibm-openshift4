@@ -1,3 +1,3 @@
-FROM registry.svc.ci.openshift.org/ibm-gate-secrets/base:master
+FROM docker-registry.default.svc:5000/ibm-gate-secrets/base:master
 ENV mark="mark"
 
